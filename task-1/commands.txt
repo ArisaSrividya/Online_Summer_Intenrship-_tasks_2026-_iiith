@@ -1,0 +1,3 @@
+yt-dlp https://www.youtube.com/watch?v=kcfs1-ryKWE
+
+ffmpeg -i FPV_Drone_Flight_through_Beautiful_Iceland_Canyon_1440p.mp4 frame_%04d.png
