@@ -1,0 +1,3 @@
+ffmpeg -i CEREAL.mp4 -t 60 -vf fps=30 frame_%04d.png
+
+ffmpeg -framerate 30 -i frame_%04d.png -c:v libx264 -pix_fmt yuv420p output.mp4
